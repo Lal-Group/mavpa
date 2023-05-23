@@ -1,0 +1,27 @@
+name: Publish Package
+on:
+  push:
+    branches:
+      - development  # Change this to the branch you want to trigger the workflow on, e.g., master, main, develop
+
+jobs:
+  build-and-publish:
+    runs-on: windows-latest  # Change this to the desired runner environment
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x  # Change this to the desired .NET version
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build and test
+        run: dotnet build --configuration Release && dotnet test --no-restore --configuration Release
+
+      - name: Publish package to GitHub Packages
+        run: dotnet nuget push --source "GitHub Packages" --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate bin/Release/MyPackage.${{ steps.package-version.outputs.version }}.nupkg
