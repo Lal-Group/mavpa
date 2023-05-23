@@ -27,7 +27,7 @@ jobs:
         id: package-version
         run: |
           dotnet build -p:Version
-          echo "::set-output name=version::$(dotnet run --project <PATH_TO_PROJECT>)"
+          echo "::set-output name=version::$(dotnet run --project ./mavpa.csproj)" 
 
       - name: Publish package to GitHub Packages
         run: |
