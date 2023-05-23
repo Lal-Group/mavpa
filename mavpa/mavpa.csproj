@@ -6,13 +6,17 @@
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<IncludeSymbols>true</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	    <Version>1.0.1</Version>
-	  <NuGetVersion>1.0.1</NuGetVersion>
+	<TargetFramework>net6.0</TargetFramework>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<Target Name="GetAssemblyVersion" BeforeTargets="CoreCompile">
+		<PropertyGroup>
+			<NuGetVersion>1.0.0</NuGetVersion>
+		</PropertyGroup>
+	</Target>
+	
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
