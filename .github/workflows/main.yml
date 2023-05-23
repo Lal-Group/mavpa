@@ -24,4 +24,4 @@ jobs:
         run: dotnet build --configuration Release && dotnet test --no-restore --configuration Release
 
       - name: Publish package to GitHub Packages
-        run: dotnet nuget push --source https://nuget.pkg.github.com/Lal-Group/index.json --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate mavpa/bin/Release/MyPackage.${{ steps.package-version.outputs.version }}.nupkg
+        run: dotnet nuget push --source https://nuget.pkg.github.com/Lal-Group/index.json --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate mavpa/bin/Release/MyPackage.1.0.0.nupkg
