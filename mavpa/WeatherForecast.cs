@@ -2,7 +2,7 @@ namespace mavpa
 {
     public class WeatherForecast
     {
-        public DateTime Date { get; set; }
+        public DateTime Date { get; internal set; }
 
         public int TemperatureC { get; set; }
 
