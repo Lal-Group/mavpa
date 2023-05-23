@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "f+1R1MhLsKN6oyKDocDqBZEIBqoBM1rfTo+LJPk597M=",
+  "Source": "MyPackage",
+  "BasePath": "_content/MyPackage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -214,7 +214,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "E:\\Workspace\\mavpa\\mavpa\\mavpa\\mavpa.csproj",
-      "projectName": "mavpa",
+      "projectName": "MyPackage",
       "projectPath": "E:\\Workspace\\mavpa\\mavpa\\mavpa\\mavpa.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
       "outputPath": "E:\\Workspace\\mavpa\\mavpa\\mavpa\\obj\\",
