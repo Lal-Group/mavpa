@@ -25,3 +25,10 @@ E:\Workspace\mavpa\mavpa\mavpa\obj\Debug\net6.0\refint\mavpa.dll
 E:\Workspace\mavpa\mavpa\mavpa\obj\Debug\net6.0\mavpa.pdb
 E:\Workspace\mavpa\mavpa\mavpa\obj\Debug\net6.0\mavpa.genruntimeconfig.cache
 E:\Workspace\mavpa\mavpa\mavpa\obj\Debug\net6.0\ref\mavpa.dll
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.csproj.AssemblyReference.cache
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.GeneratedMSBuildEditorConfig.editorconfig
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.AssemblyInfoInputs.cache
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.AssemblyInfo.cs
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.csproj.CoreCompileInputs.cache
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.MvcApplicationPartsAssemblyInfo.cs
+E:\mavpa\mavpa\obj\Debug\net6.0\mavpa.MvcApplicationPartsAssemblyInfo.cache

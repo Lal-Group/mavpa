@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Workspace\\mavpa\\mavpa\\mavpa\\mavpa.csproj": {}
+    "E:\\mavpa\\mavpa\\mavpa.csproj": {}
   },
   "projects": {
-    "E:\\Workspace\\mavpa\\mavpa\\mavpa\\mavpa.csproj": {
-      "version": "1.0.0",
+    "E:\\mavpa\\mavpa\\mavpa.csproj": {
+      "version": "1.0.24",
       "restore": {
-        "projectUniqueName": "E:\\Workspace\\mavpa\\mavpa\\mavpa\\mavpa.csproj",
-        "projectName": "MyPackage",
-        "projectPath": "E:\\Workspace\\mavpa\\mavpa\\mavpa\\mavpa.csproj",
-        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "E:\\Workspace\\mavpa\\mavpa\\mavpa\\obj\\",
+        "projectUniqueName": "E:\\mavpa\\mavpa\\mavpa.csproj",
+        "projectName": "mavpa",
+        "projectPath": "E:\\mavpa\\mavpa\\mavpa.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "E:\\mavpa\\mavpa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Orthodox-Union/index.json": {}
         },
         "frameworks": {
           "net6.0": {
