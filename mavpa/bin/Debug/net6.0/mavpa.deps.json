@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "mavpa/1.0.0": {
+      "mavpa/1.0.24": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -64,7 +64,7 @@
     }
   },
   "libraries": {
-    "mavpa/1.0.0": {
+    "mavpa/1.0.24": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
