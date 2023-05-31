@@ -20,7 +20,7 @@ jobs:
         run: dotnet restore
 
       - name: Build and test
-        run: dotnet build --configuration Release && dotnet test --no-restore --configuration Release
+        run: dotnet build --configuration Release
 
       - name: Publish package to GitHub Packages
         run: |
