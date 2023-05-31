@@ -24,5 +24,4 @@ jobs:
 
       - name: Publish package to GitHub Packages
         run: |
-          echo ${{secrets.PACKAGE_SECRET}}
           dotnet nuget push --source https://nuget.pkg.github.com/Lal-Group/index.json --api-key ${{secrets.PACKAGE_SECRET}} --skip-duplicate mavpa/bin/Release/MyPackage.1.0.0.nupkg
