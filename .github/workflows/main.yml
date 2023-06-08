@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 18
 
-      - uses: act10ns/sl8ck@v1
+      - uses: act10ns/slack@v1
         with:
           status: starting
           channel: '#github-actions-notifications'
