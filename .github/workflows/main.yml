@@ -8,9 +8,6 @@ jobs:
   build-and-publish:
     runs-on: windows-latest  # Change this to the desired runner environment
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
       - name: Set up Node.js 18
         uses: actions/setup-node@v3
         with:
@@ -20,18 +17,4 @@ jobs:
         with:
           status: starting
           channel: '#github-actions-notifications'
-          
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v1
-        with:  
-          dotnet-version: 6.0.x  # Change this to the desired .NET version
-
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build and test
-        run: dotnet build --configuration Release
-
-      - name: Publish package to GitHub Packages
-        run: |
-          dotnet nuget push --source https://nuget.pkg.github.com/Lal-Group/index.json --api-key ${{secrets.PACKAGE_SECRET}} --skip-duplicate mavpa/bin/Release/MyPackage.1.0.0.nupkg
+      
